@@ -32,6 +32,12 @@ Crear un nuevo proyecto con composer
  composer create-project --prefer-dist laravel/laravel laravelcv10-jasper
 ```
 
+**Si sólo se clona el repositorio, no olvidar ejecutar el comando composer update, para actualizar y descargar los paquetes:
+
+```
+ composer update
+```
+
 ### Configurar el archivo .env
 
 En el archivo .env se configuran los accesos para jasperreports añadir lo siguiente y adaptarlo al proyecto que se use
